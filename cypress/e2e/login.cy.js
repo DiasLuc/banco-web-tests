@@ -4,7 +4,7 @@ describe('Login', () => {
     cy.visit('http://localhost:4000')
     cy.screenshot('after-opening-page')
   })
-  it.only('Login with valid data should allow entrance into the system', () => {
+  it('Login with valid data should allow entrance into the system', () => {
     
 
     //  Act
