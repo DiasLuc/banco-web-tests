@@ -1,7 +1,7 @@
 describe('Login', () => {
   beforeEach(() => {
     //  Arrange
-    cy.visit(Cypress.env('URL'))
+    cy.visit('/')
     cy.screenshot('after-opening-page')
   })
   it('Login with valid data should allow entrance into the system', () => {
