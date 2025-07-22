@@ -1,5 +1,5 @@
 cypress/screenshots/
-
+cypress/reports
 # Logs
 logs
 *.log
